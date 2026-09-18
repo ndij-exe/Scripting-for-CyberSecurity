@@ -1,0 +1,4 @@
+ndij.exe
+idk my hostname
+14/9/25
+/Scripting-for-CyberSecurity/lab02
