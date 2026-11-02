@@ -1,0 +1,563 @@
+Script started on 2026-11-02 15:22:27+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="82" LINES="14"]
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m/workspaces/Scripting-for-CyberSecurity [0;36m([1;31mmain[0;36m) [0m$ [7mcd ~[27m
+[7mgh repo clone robustness/Test1[27m
+[7mcd Test1[27m[A[A[0;32m@ndij-exe [0m➜ [1;34m/workspaces/Scripting-for-CyberSecurity [0;36m([1;31mmain[0;36m) [0m$ cd ~
+gh repo clone robustness/Test1
+cd Test1
+[?2004l]11;?\[6nCloning into 'Test1'...
+
+[Kremote: Enumerating objects: 54, done.
+[Kremote: Counting objects:   1% (1/54)[Kremote: Counting objects:   3% (2/54)[Kremote: Counting objects:   5% (3/54)[Kremote: Counting objects:   7% (4/54)[Kremote: Counting objects:   9% (5/54)[Kremote: Counting objects:  11% (6/54)[Kremote: Counting objects:  12% (7/54)[Kremote: Counting objects:  14% (8/54)[Kremote: Counting objects:  16% (9/54)[Kremote: Counting objects:  18% (10/54)[Kremote: Counting objects:  20% (11/54)[Kremote: Counting objects:  22% (12/54)[Kremote: Counting objects:  24% (13/54)[Kremote: Counting objects:  25% (14/54)[Kremote: Counting objects:  27% (15/54)[Kremote: Counting objects:  29% (16/54)[Kremote: Counting objects:  31% (17/54)[Kremote: Counting objects:  33% (18/54)[Kremote: Counting objects:  35% (19/54)[Kremote: Counting objects:  37% (20/54)[Kremote: Counting objects:  38% (21/54)[Kremote: Counting objects:  40% (22/54)[Kremote: Counting objects:  42% (23/54)[Kremote: Counting objects:  44% (24/54)[Kremote: Counting objects:  46% (25/54)[Kremote: Counting objects:  48% (26/54)[Kremote: Counting objects:  50% (27/54)[Kremote: Counting objects:  51% (28/54)[Kremote: Counting objects:  53% (29/54)[Kremote: Counting objects:  55% (30/54)[Kremote: Counting objects:  57% (31/54)[Kremote: Counting objects:  59% (32/54)[Kremote: Counting objects:  61% (33/54)[Kremote: Counting objects:  62% (34/54)[Kremote: Counting objects:  64% (35/54)[Kremote: Counting objects:  66% (36/54)[Kremote: Counting objects:  68% (37/54)[Kremote: Counting objects:  70% (38/54)[Kremote: Counting objects:  72% (39/54)[Kremote: Counting objects:  74% (40/54)[Kremote: Counting objects:  75% (41/54)[Kremote: Counting objects:  77% (42/54)[Kremote: Counting objects:  79% (43/54)[Kremote: Counting objects:  81% (44/54)[Kremote: Counting objects:  83% (45/54)[Kremote: Counting objects:  85% (46/54)[Kremote: Counting objects:  87% (47/54)[Kremote: Counting objects:  88% (48/54)[Kremote: Counting objects:  90% (49/54)[Kremote: Counting objects:  92% (50/54)[Kremote: Counting objects:  94% (51/54)[Kremote: Counting objects:  96% (52/54)[Kremote: Counting objects:  98% (53/54)[Kremote: Counting objects: 100% (54/54)[Kremote: Counting objects: 100% (54/54), done.
+[Kremote: Compressing objects:   2% (1/34)[Kremote: Compressing objects:   5% (2/34)[Kremote: Compressing objects:   8% (3/34)[Kremote: Compressing objects:  11% (4/34)[Kremote: Compressing objects:  14% (5/34)[Kremote: Compressing objects:  17% (6/34)[Kremote: Compressing objects:  20% (7/34)[Kremote: Compressing objects:  23% (8/34)[Kremote: Compressing objects:  26% (9/34)[Kremote: Compressing objects:  29% (10/34)[Kremote: Compressing objects:  32% (11/34)[Kremote: Compressing objects:  35% (12/34)[Kremote: Compressing objects:  38% (13/34)[Kremote: Compressing objects:  41% (14/34)[Kremote: Compressing objects:  44% (15/34)[Kremote: Compressing objects:  47% (16/34)[Kremote: Compressing objects:  50% (17/34)[Kremote: Compressing objects:  52% (18/34)[Kremote: Compressing objects:  55% (19/34)[Kremote: Compressing objects:  58% (20/34)[Kremote: Compressing objects:  61% (21/34)[Kremote: Compressing objects:  64% (22/34)[Kremote: Compressing objects:  67% (23/34)[Kremote: Compressing objects:  70% (24/34)[Kremote: Compressing objects:  73% (25/34)[Kremote: Compressing objects:  76% (26/34)[Kremote: Compressing objects:  79% (27/34)[Kremote: Compressing objects:  82% (28/34)[Kremote: Compressing objects:  85% (29/34)[Kremote: Compressing objects:  88% (30/34)[Kremote: Compressing objects:  91% (31/34)[Kremote: Compressing objects:  94% (32/34)[Kremote: Compressing objects:  97% (33/34)[Kremote: Compressing objects: 100% (34/34)[Kremote: Compressing objects: 100% (34/34), done.
+Receiving objects:   1% (1/54)Receiving objects:   3% (2/54)Receiving objects:   5% (3/54)Receiving objects:   7% (4/54)Receiving objects:   9% (5/54)Receiving objects:  11% (6/54)Receiving objects:  12% (7/54)Receiving objects:  14% (8/54)Receiving objects:  16% (9/54)Receiving objects:  18% (10/54)Receiving objects:  20% (11/54)Receiving objects:  22% (12/54)Receiving objects:  24% (13/54)Receiving objects:  25% (14/54)Receiving objects:  27% (15/54)Receiving objects:  29% (16/54)Receiving objects:  31% (17/54)Receiving objects:  33% (18/54)Receiving objects:  35% (19/54)Receiving objects:  37% (20/54)Receiving objects:  38% (21/54)Receiving objects:  40% (22/54)Receiving objects:  42% (23/54)Receiving objects:  44% (24/54)Receiving objects:  46% (25/54)Receiving objects:  48% (26/54)Receiving objects:  50% (27/54)Receiving objects:  51% (28/54)Receiving objects:  53% (29/54)Receiving objects:  55% (30/54)Receiving objects:  57% (31/54)Receiving objects:  59% (32/54)Receiving objects:  61% (33/54)Receiving objects:  62% (34/54)Receiving objects:  64% (35/54)Receiving objects:  66% (36/54)Receiving objects:  68% (37/54)Receiving objects:  70% (38/54)Receiving objects:  72% (39/54)Receiving objects:  74% (40/54)Receiving objects:  75% (41/54)Receiving objects:  77% (42/54)Receiving objects:  79% (43/54)Receiving objects:  81% (44/54)Receiving objects:  83% (45/54)Receiving objects:  85% (46/54)Receiving objects:  87% (47/54)[Kremote: Total 54 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects:  88% (48/54)Receiving objects:  90% (49/54)Receiving objects:  92% (50/54)Receiving objects:  94% (51/54)Receiving objects:  96% (52/54)Receiving objects:  98% (53/54)Receiving objects: 100% (54/54)Receiving objects: 100% (54/54), 29.25 KiB | 5.85 MiB/s, done.
+Resolving deltas:   0% (0/1)Resolving deltas: 100% (1/1)Resolving deltas: 100% (1/1), done.
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ 
+[?2004l[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ touch.txt[K[K[K[K answers.txt
+[?2004l[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ ls [K[K[K[K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ grep[K[K[K[Kls | wc il[K[K-l[K[K[K[K[K[K[K[K[K[Kfind . -type f
+[?2004l./answers.txt
+./.git/refs/heads/main
+./.git/refs/remotes/origin/HEAD
+./.git/objects/pack/pack-af91b97011054c062132fb2528c120bfb5d4750b.idx
+./.git/objects/pack/pack-af91b97011054c062132fb2528c120bfb5d4750b.rev
+./.git/objects/pack/pack-af91b97011054c062132fb2528c120bfb5d4750b.pack
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/push-to-checkout.sample
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/update.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/pre-rebase.sample
+./.git/hooks/sendemail-validate.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/logs/refs/heads/main
+./.git/logs/refs/remotes/origin/HEAD
+./.git/logs/HEAD
+./.git/index
+./.git/description
+./.git/packed-refs
+./.git/HEAD
+./.git/config
+./.git/info/exclude
+./exam-data/intel/auth.log
+./exam-data/intel/users.csv
+./exam-data/intel/access.log
+./exam-data/intel/iocs.txt
+./exam-data/case/hello.sh
+./exam-data/case/windows.sh
+./exam-data/case/config-new.txt
+./exam-data/case/logs/firewall.log
+./exam-data/case/logs/auth.log
+./exam-data/case/logs/access.log
+./exam-data/case/nested/archive/old.log
+./exam-data/case/scripts/report.py
+./exam-data/case/scripts/scan.py
+./exam-data/case/scripts/check.sh
+./exam-data/case/configs/app.conf
+./exam-data/case/configs/server.conf
+./exam-data/case/configs/backup.conf
+./exam-data/case/backups/users.old
+./exam-data/case/backups/config.old
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+./exam-data/case/config-old.txt
+./exam-data/case/docs/inventory.txt
+./readme.md
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ [K[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find . -type f[C[1P[1P
+[?2004l./answers.txt
+./.git/refs/heads/main
+./.git/refs/remotes/origin/HEAD
+./.git/objects/pack/pack-af91b97011054c062132fb2528c120bfb5d4750b.idx
+./.git/objects/pack/pack-af91b97011054c062132fb2528c120bfb5d4750b.rev
+./.git/objects/pack/pack-af91b97011054c062132fb2528c120bfb5d4750b.pack
+./.git/hooks/fsmonitor-watchman.sample
+./.git/hooks/pre-push.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/pre-receive.sample
+./.git/hooks/push-to-checkout.sample
+./.git/hooks/prepare-commit-msg.sample
+./.git/hooks/commit-msg.sample
+./.git/hooks/update.sample
+./.git/hooks/post-update.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/pre-rebase.sample
+./.git/hooks/sendemail-validate.sample
+./.git/hooks/pre-merge-commit.sample
+./.git/logs/refs/heads/main
+./.git/logs/refs/remotes/origin/HEAD
+./.git/logs/HEAD
+./.git/index
+./.git/description
+./.git/packed-refs
+./.git/HEAD
+./.git/config
+./.git/info/exclude
+./exam-data/intel/auth.log
+./exam-data/intel/users.csv
+./exam-data/intel/access.log
+./exam-data/intel/iocs.txt
+./exam-data/case/hello.sh
+./exam-data/case/windows.sh
+./exam-data/case/config-new.txt
+./exam-data/case/logs/firewall.log
+./exam-data/case/logs/auth.log
+./exam-data/case/logs/access.log
+./exam-data/case/nested/archive/old.log
+./exam-data/case/scripts/report.py
+./exam-data/case/scripts/scan.py
+./exam-data/case/scripts/check.sh
+./exam-data/case/configs/app.conf
+./exam-data/case/configs/server.conf
+./exam-data/case/configs/backup.conf
+./exam-data/case/backups/users.old
+./exam-data/case/backups/config.old
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+./exam-data/case/config-old.txt
+./exam-data/case/docs/inventory.txt
+./readme.md
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find -type f[C[1@/[1@e[1@x[1@a[1@m[C[1@-[1@d[1@a[1@t[1@a[1@ 
+[?2004lfind: ‘/exam-data’: No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find /exam-data -type f[C[C[C[C[C[C[C[1@/
+[?2004lfind: ‘/exam-data/’: No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find /exam-data/ -type f[1@.
+[?2004l./exam-data/intel/auth.log
+./exam-data/intel/users.csv
+./exam-data/intel/access.log
+./exam-data/intel/iocs.txt
+./exam-data/case/hello.sh
+./exam-data/case/windows.sh
+./exam-data/case/config-new.txt
+./exam-data/case/logs/firewall.log
+./exam-data/case/logs/auth.log
+./exam-data/case/logs/access.log
+./exam-data/case/nested/archive/old.log
+./exam-data/case/scripts/report.py
+./exam-data/case/scripts/scan.py
+./exam-data/case/scripts/check.sh
+./exam-data/case/configs/app.conf
+./exam-data/case/configs/server.conf
+./exam-data/case/configs/backup.conf
+./exam-data/case/backups/users.old
+./exam-data/case/backups/config.old
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+./exam-data/case/config-old.txt
+./exam-data/case/docs/inventory.txt
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f | wc[Kc
+[?2004l     28      28     948
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f | wclwcswc wc
+[?2004lls: cannot access 'wc': No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f | ls wc[C[C[C wc- wcl wc
+[?2004lls: cannot access 'wc': No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f | ls -l wc[K[K[K[K[K[K[K[Kwc ls -l
+[?2004lwc: ls: No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f | wc ls -l[K[K[K[K[K-l
+[?2004l28
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ vim [K[K answers.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;12r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[12;1H"answers.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[94m~                                                                                 [3;1H~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [m[12;65H0,0-1[9CAll[1;1H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[12;55Hi[1;1H[12;55H [1;1H[12;1H[1m-- INSERT --[m[12;13H[K[12;65H0,1[11CAll[1;1H[?25h[?25lA[12;65H1,2[1;2H[?25h[?25l1[12;67H3[1;3H[?25h[?25l[2;1H[K[12;65H2,1[2;1H[?25h[?25lC[12;67H2[2;2H[?25h[?25lo[12;67H3[2;3H[?25h[?25lm[12;67H4[2;4H[?25h[?25lm[12;67H5[2;5H[?25h[?25la[12;67H6[2;6H[?25h[?25ln[12;67H7[2;7H[?25h[?25ld[12;67H8[2;8H[?25h[?25l[12;67H9[2;9H[?25h[?25lf[12;67H10[2;10H[?25h[?25li[12;68H1[2;11H[?25h[?25ln[12;68H2[2;12H[?25h[?25ld[12;68H3[2;13H[?25h[?25l[12;68H4[2;14H[?25h[?25l[12;68H3[2;13H[?25h[?25l[2;12H[K[12;68H2[2;12H[?25h[?25l[2;11H[K[12;68H1[2;11H[?25h[?25l[2;10H[K[12;68H0[2;10H[?25h[?25l[2;9H[K[12;67H9 [2;9H[?25h[?25l[12;67H8[2;8H[?25h[?25l:[12;67H9[2;9H[?25h[?25l[12;67H10[2;10H[?25h[?25l.[12;68H1[2;11H[?25h[?25l[2;10H[K[12;68H0[2;10H[?25h[?25lf[12;68H1[2;11H[?25h[?25li[12;68H2[2;12H[?25h[?25ln[12;68H3[2;13H[?25h[?25ld[12;68H4[2;14H[?25h[?25l[12;68H5[2;15H[?25h[?25l.[12;68H6[2;16H[?25h[?25l/[12;68H7[2;17H[?25h[?25le[12;68H8[2;18H[?25h[?25lx[12;68H9[2;19H[?25h[?25lm[12;67H20[2;20H[?25h[?25la[12;68H1[2;21H[?25h[?25l[2;20H[K[12;68H0[2;20H[?25h[?25l[2;19H[K[12;67H19[2;19H[?25h[?25la[12;67H20[2;20H[?25h[?25lm[12;68H1[2;21H[?25h[?25l-[12;68H2[2;22H[?25h[?25ld[12;68H3[2;23H[?25h[?25la[12;68H4[2;24H[?25h[?25lt[12;68H5[2;25H[?25h[?25la[12;68H6[2;26H[?25h[?25l/[12;68H7[2;27H[?25h[?25l[12;68H8[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [m[13;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [m[14;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [m[16;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [m[18;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [m[19;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [m[21;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [m[22;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [m[23;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [m[24;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [m[25;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [m[26;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [m[28;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [m[29;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [m[30;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [m[32;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [32;1H~                                                                                 [m[33;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [32;1H~                                                                                 [33;1H~                                                                                 [m[34;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [32;1H~                                                                                 [33;1H~                                                                                 [34;1H~                                                                                 [m[35;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [32;1H~                                                                                 [33;1H~                                                                                 [34;1H~                                                                                 [35;1H~                                                                                 [m[36;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[27m[23m[29m[m[H[2J[?25l[1;1HA1
+Command: find ./exam-data/
+[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [32;1H~                                                                                 [33;1H~                                                                                 [34;1H~                                                                                 [35;1H~                                                                                 [36;1H~                                                                                 [m[37;1H[1m-- INSERT --[m[52C2,28[10CAll[2;28H[?25h[?25l:[37;68H9[2;29H[?25h[?25l[2;28H[K[37;68H8[2;28H[?25h[37;1H[K[2;27H[?25l[37;55H^[[2;27H[37;55H  [2;28H[37;65H2,27[10CAll[2;27H[?25h[?25l[37;55H:[2;27H[37;55H[K[37;1H:[?25hwq[?25l[?2004l[>4;m"answers.txt" 2L, 31B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ vi answers.txt
+[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;37r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[37;1H"answers.txt" 2L, 31B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[1;1HA1
+Command: find ./exam-data/ [2;28H[K[3;1H[94m~                                                                                 [4;1H~                                                                                 [5;1H~                                                                                 [6;1H~                                                                                 [7;1H~                                                                                 [8;1H~                                                                                 [9;1H~                                                                                 [10;1H~                                                                                 [11;1H~                                                                                 [12;1H~                                                                                 [13;1H~                                                                                 [14;1H~                                                                                 [15;1H~                                                                                 [16;1H~                                                                                 [17;1H~                                                                                 [18;1H~                                                                                 [19;1H~                                                                                 [20;1H~                                                                                 [21;1H~                                                                                 [22;1H~                                                                                 [23;1H~                                                                                 [24;1H~                                                                                 [25;1H~                                                                                 [26;1H~                                                                                 [27;1H~                                                                                 [28;1H~                                                                                 [29;1H~                                                                                 [30;1H~                                                                                 [31;1H~                                                                                 [32;1H~                                                                                 [33;1H~                                                                                 [34;1H~                                                                                 [35;1H~                                                                                 [36;1H~                                                                                 [m[37;65H2,27[10CAll[2;27H[?25h[?4mP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?12$p[?25l[37;55H~@k[2;27H[37;55H   [2;26H[37;68H6[2;26H[?25h[?25l[37;55H~@k[2;26H[37;55H   [2;25H[37;68H5[2;25H[?25h[?25l[37;68H4[2;24H[?25h[?25l[37;55H~@k[2;24H[37;55H   [2;23H[37;68H3[2;23H[?25h[?25l[37;55H~@k[2;23H[37;55H   [2;22H[37;68H2[2;22H[?25h[?25l[37;55H~@k[2;22H[37;55H   [2;21H[37;68H1[2;21H[?25h[?25l[37;68H0[2;20H[?25h[?25l[37;55H~@k[2;20H[37;55H   [2;19H[37;67H19[2;19H[?25h[?25l[37;55H~@k[2;19H[37;55H   [2;18H[37;68H8[2;18H[?25h[?25l[37;55H~@k[2;18H[37;55H   [2;17H[37;68H7[2;17H[?25h[?25l[37;55H~@k[2;17H[37;55H   [2;16H[37;68H6[2;16H[?25h[?25l[37;55H~@k[2;16H[37;55H   [2;15H[37;68H5[2;15H[?25h[?25l[37;55H~@k[2;15H[37;55H   [2;16H[37;68H6[2;16H[?25h[?25l[37;55H~@k[2;16H[37;55H   [2;17H[37;68H7[2;17H[?25h[?25l[37;55H~@k[2;17H[37;55H   [2;18H[37;68H8[2;18H[?25h[?25l[37;55Hi[2;18H[37;55H [2;18H[37;1H[1m-- INSERT --[m[37;13H[K[37;65H2,18[10CAll[2;18H[?25h[?25lam-data/ [2;18H[?25h[?25lm-data/ [2;18H[?25h[?25l-data/ [2;18H[?25h[?25ldata/ [?25h[?25lata/ [?25h[?25lta/ [?25h[?25la/ [?25h[?25l [2;19H[K[2;18H[?25h[?25l [37;68H7[2;17H[?25h[?25l [37;68H6[2;16H[?25h[?25l [37;68H5[2;15H[?25h[?25l[37;68H4[2;14H[?25h[?25l [37;68H3[2;13H[?25h[?25l [37;68H2[2;12H[?25h[?25l [37;68H1[2;11H[?25h[?25l [37;68H0[2;10H[?25h[?25lfind ./exam-data/ -type f | wc -l
+28 [3;4H[K[37;65H3,3 [3;3H[?25h[?25l[37;67H2[3;2H[?25h[?25l[37;67H1[3;1H[?25h[?25lA28[37;67H2[3;2H[?25h[?25ln28[37;67H3[3;3H[?25h[?25ls28[37;67H4[3;4H[?25h[?25lw28[37;67H5[3;5H[?25h[?25le28[37;67H6[3;6H[?25h[?25lr28[37;67H7[3;7H[?25h[?25l:28[37;67H8[3;8H[?25h[?25l 28[37;67H9[3;9H[?25h[?25l[37;67H10[3;10H[?25h[?25l[37;68H1[3;11H[?25h[?25l
+ [4;2H[K[37;65H4,1 [4;1H[?25h[?25lA[37;67H2[4;2H[?25h[?25l"[37;67H3[4;3H[?25h[?25l [37;67H2[4;2H[?25h[?25l2[37;67H3[4;3H[?25h[?25l [37;67H2[4;2H[?25h[?25l [37;67H1[4;1H[?25h[?25l
+ [5;2H[K[37;65H5[5;1H[?25h[?25la[37;67H2[5;2H[?25h[?25l [37;67H1[5;1H[?25h[?25lA[37;67H2[5;2H[?25h[?25l2[37;67H3[5;3H[?25h[?25l:[37;67H4[5;4H[?25h[?25l [37;67H3[5;3H[?25h[?25l
+ [6;2H[K[37;65H6,1[6;1H[?25h[?25lC[37;67H2[6;2H[?25h[?25lo[37;67H3[6;3H[?25h[?25lm[37;67H4[6;4H[?25h[?25lm[37;67H5[6;5H[?25h[?25la[37;67H6[6;6H[?25h[?25ln[37;67H7[6;7H[?25h[?25ld[37;67H8[6;8H[?25h[?25l[37;67H9[6;9H[?25h[?25l[37;67H8[6;8H[?25h[?25l:[37;67H9[6;9H[?25h[?25l[37;67H10[6;10H[?25h[?25l
+ [7;2H[K[37;65H7,1 [7;1H[?25h[?25lA[37;67H2[7;2H[?25h[?25ln[37;67H3[7;3H[?25h[?25ls[37;67H4[7;4H[?25h[?25lw[37;67H5[7;5H[?25h[?25le[37;67H6[7;6H[?25h[?25lr[37;67H7[7;7H[?25h[?25l:[37;67H8[7;8H[?25h[37;1H[K[7;7H[?25l[37;55H^[[7;7H[37;55H  [7;8H[37;65H7,7[11CAll[7;7H[?25h[?25l[37;55H:[7;7H[37;55H[K[37;1H:[?25hwq[?25l[?2004l[>4;m"answers.txt" 7L, 80B written[23;2t[23;1t
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ vi answers.txtfind ./exam-data/ -type f | wc -l[C[C[1@-[1@s[1@i[1@z[1@e[1@ [1P[1@0[1@/[1@=[1P[1@+[1@0[1@ [1P[1@c[1@ 
+[?2004lfind: unknown predicate `-size0/+0c'
+0
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -size0/+0c | wc -l[1P[1@ 
+[?2004lfind: unknown predicate `-size0/+0c'
+0
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -size0/+0c | wc -l[K[K[K[K[K[K[K[K[K[K0c
+[?2004lfind: unknown predicate `-size0/+0c'
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -size0/+0c[K[K[K[K[K0
+[?2004lfind: unknown predicate `-size0'
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -size0[K
+[?2004lfind: missing argument to `-size'
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -size[K[K[K[K[K-print0
+[?2004l./exam-data/intel/auth.log ./exam-data/intel/users.csv ./exam-data/intel/access.log ./exam-data/intel/iocs.txt ./exam-data/case/hello.sh ./exam-data/case/windows.sh ./exam-data/case/config-new.txt ./exam-data/case/logs/firewall.log ./exam-data/case/logs/auth.log ./exam-data/case/logs/access.log ./exam-data/case/nested/archive/old.log ./exam-data/case/scripts/report.py ./exam-data/case/scripts/scan.py ./exam-data/case/scripts/check.sh ./exam-data/case/configs/app.conf ./exam-data/case/configs/server.conf ./exam-data/case/configs/backup.conf ./exam-data/case/backups/users.old ./exam-data/case/backups/config.old ./exam-data/case/evidence/suspicious.dat ./exam-data/case/evidence/notes.txt ./exam-data/case/evidence/empty.bin ./exam-data/case/evidence/image.png ./exam-data/case/evidence/passwords.txt ./exam-data/case/evidence/archive.zip ./exam-data/case/evidence/readme.md ./exam-data/case/config-old.txt ./exam-data/case/docs/inventory.txt [?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -print0[K[K[K[K[K[Ksize0
+[?2004lfind: unknown predicate `-size0'
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f -size0[1P -size0[1P-size0[1P -size0[1P -size0[1P -size0[1P -size0[1P -size0[1P-size0
+[?2004lfind: unknown predicate `-size0'
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ man 
+[?2004lWhat manual page do you want?
+For example, try 'man man'.
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ man size
+[?2004l[?1049h[22;0;0t[?1h=[4mSIZE[24m(1)                      GNU Development Tools                      [4mSIZE[24m(1)[m
+[m
+[1mNAME[0m[m
+       size - list section sizes and total size of binary files[m
+[m
+[1mSYNOPSIS[0m[m
+       size [[1m-A[22m|[1m-B[22m|[1m-G[22m|[1m--format=[4m[22mcompatibility[24m][m
+            [[1m--help[22m][m
+            [[1m-d[22m|[1m-o[22m|[1m-x[22m|[1m--radix=[4m[22mnumber[24m][m
+            [[1m--common[22m][m
+            [[1m-t[22m|[1m--totals[22m][m
+            [[1m--target=[4m[22mbfdname[24m] [[1m-V[22m|[1m--version[22m][m
+            [[1m-f[22m][m
+            [[4mobjfile[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       The GNU [1msize [22mutility lists the section sizes and the total size for each[m
+       of the binary files [4mobjfile[24m on its argument list.  By default, one line[m
+       of output is generated for each file or each module if the file is an[m
+       archive.[m
+[m
+       [4mobjfile[24m... are the files to be examined.  If none are specified, the[m
+       file "a.out" will be used instead.[m
+[m
+[1mOPTIONS[0m[m
+       The command-line options have the following meanings:[m
+[m
+       [1m-A[0m[m
+       [1m-B[0m[m
+       [1m-G[0m[m
+       [1m--format=[4m[22mcompatibility[0m[m
+           Using  one  of these options, you can choose whether the output from[m
+           GNU  [1msize  [22mresembles  output  from  System  V  [1msize  [22m(using  [1m-A[22m,  or[m
+           [1m--format=sysv[22m),  or  Berkeley [1msize [22m(using [1m-B[22m, or [1m--format=berkeley[22m).[m
+           The  default  is  the  one-line  format   similar   to   Berkeley's.[m
+           Alternatively,  you  can  choose the GNU format output (using [1m-G[22m, or[m
+[7m Manual page size(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m--format=gnu[22m), this is similar  to  Berkeley's  output  format,  but[m
+[7m Manual page size(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           sizes are counted differently.[m
+[7m Manual page size(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Here  is  an example of the Berkeley (default) format of output from[m
+[7m Manual page size(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1msize[22m:[m
+[7m Manual page size(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   $ size --format=Berkeley ranlib size[m
+[7m Manual page size(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                      text    data     bss     dec     hex filename[m
+[7m Manual page size(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                    294880   81920   11592  388392   5ed28 ranlib[m
+[7m Manual page size(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                    294880   81920   11888  388688   5ee50 size[m
+[7m Manual page size(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The Berkeley style output  counts  read  only  data  in  the  "text"[m
+[7m Manual page size(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           column,  not  in the "data" column, the "dec" and "hex" columns both[m
+[7m Manual page size(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           display the sum of the "text", "data", and "bss" columns in  decimal[m
+[7m Manual page size(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and hexadecimal respectively.[m
+[7m Manual page size(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The  GNU  format counts read only data in the "data" column, not the[m
+[7m Manual page size(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           "text" column, and only displays the sum of the "text", "data",  and[m
+[7m Manual page size(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           "bss"  columns  once, in the "total" column.  The [1m--radix [22moption can[m
+[7m Manual page size(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           be used to change the number base for all columns.  Here is the same[m
+[7m Manual page size(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           data displayed with GNU conventions:[m
+[7m Manual page size(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   $ size --format=GNU ranlib size[m
+[7m Manual page size(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                         text       data        bss      total filename[m
+[7m Manual page size(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                       279880      96920      11592     388392 ranlib[m
+[7m Manual page size(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                       279880      96920      11888     388688 size[m
+[7m Manual page size(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This is the same data, but displayed closer to System V conventions:[m
+[7m Manual page size(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   $ size --format=SysV ranlib size[m
+[7m Manual page size(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ranlib  :[m
+[7m Manual page size(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   section         size         addr[m
+[7m Manual page size(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   .text         294880         8192[m
+[7m Manual page size(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   .data          81920       303104[m
+[7m Manual page size(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   .bss           11592       385024[m
+[7m Manual page size(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Total         388392[m
+[7m Manual page size(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   size  :[m
+[7m Manual page size(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   section         size         addr[m
+[7m Manual page size(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   .text         294880         8192[m
+[7m Manual page size(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   .data          81920       303104[m
+[7m Manual page size(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   .bss           11888       385024[m
+[7m Manual page size(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   Total         388688[m
+[7m Manual page size(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--help[0m[m
+[7m Manual page size(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[0m[m
+[7m Manual page size(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H[0m[m
+[7m Manual page size(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-?  [22mShow a summary of acceptable arguments and options.[m
+[7m Manual page size(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[0m[m
+[7m Manual page size(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[0m[m
+[7m Manual page size(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-x[0m[m
+[7m Manual page size(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--radix=[4m[22mnumber[0m[m
+[7m Manual page size(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Using one of these options, you can control whether the size of each[m
+[7m Manual page size(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           section is given in decimal  ([1m-d[22m,  or  [1m--radix=10[22m);  octal  ([1m-o[22m,  or[m
+[7m Manual page size(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m--radix=8[22m);  or hexadecimal ([1m-x[22m, or [1m--radix=16[22m).  In [1m--radix=[4m[22mnumber[24m,[m
+[7m Manual page size(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           only the three values (8, 10, 16) are supported.  The total size  is[m
+[7m Manual page size(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           always  given  in  two radices; decimal and hexadecimal for [1m-d [22mor [1m-x[0m[m
+[7m Manual page size(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           output, or octal and hexadecimal if you're using [1m-o[22m.[m
+[7m Manual page size(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--common[0m[m
+[7m Manual page size(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Print total size  of  common  symbols  in  each  file.   When  using[m
+[7m Manual page size(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Berkeley or GNU format these are included in the bss size.[m
+[7m Manual page size(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t[0m[m
+[7m Manual page size(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--totals[0m[m
+[7m Manual page size(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Show  totals  of  all  objects  listed  (Berkeley or GNU format mode[m
+[7m Manual page size(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           only).[m
+[7m Manual page size(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--target=[4m[22mbfdname[0m[m
+[7m Manual page size(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Specify that the object-code format for [4mobjfile[24m  is  [4mbfdname[24m.   This[m
+[7m Manual page size(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option  may  not be necessary; [1msize [22mcan automatically recognize many[m
+[7m Manual page size(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           formats.[m
+[7m Manual page size(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page size(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-v[0m[m
+[7m Manual page size(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-V[0m[m
+[7m Manual page size(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--version[0m[m
+[7m Manual page size(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display the version number of [1msize[22m.[m
+[7m Manual page size(1) line 79 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size
+[?2004lsize: 'a.out': No such file
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ -se[Kize
+[?2004lbash: -size: command not found
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ man size
+[?2004l[?1049h[22;0;0t[?1h=[4mSIZE[24m(1)                      GNU Development Tools                      [4mSIZE[24m(1)[m
+[m
+[1mNAME[0m[m
+       size - list section sizes and total size of binary files[m
+[m
+[1mSYNOPSIS[0m[m
+       size [[1m-A[22m|[1m-B[22m|[1m-G[22m|[1m--format=[4m[22mcompatibility[24m][m
+            [[1m--help[22m][m
+            [[1m-d[22m|[1m-o[22m|[1m-x[22m|[1m--radix=[4m[22mnumber[24m][m
+            [[1m--common[22m][m
+            [[1m-t[22m|[1m--totals[22m][m
+            [[1m--target=[4m[22mbfdname[24m] [[1m-V[22m|[1m--version[22m][m
+            [[1m-f[22m][m
+            [[4mobjfile[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       The GNU [1msize [22mutility lists the section sizes and the total size for each[m
+       of the binary files [4mobjfile[24m on its argument list.  By default, one line[m
+       of output is generated for each file or each module if the file is an[m
+       archive.[m
+[m
+       [4mobjfile[24m... are the files to be examined.  If none are specified, the[m
+       file "a.out" will be used instead.[m
+[m
+[1mOPTIONS[0m[m
+       The command-line options have the following meanings:[m
+[m
+       [1m-A[0m[m
+       [1m-B[0m[m
+       [1m-G[0m[m
+       [1m--format=[4m[22mcompatibility[0m[m
+           Using  one  of these options, you can choose whether the output from[m
+           GNU  [1msize  [22mresembles  output  from  System  V  [1msize  [22m(using  [1m-A[22m,  or[m
+           [1m--format=sysv[22m),  or  Berkeley [1msize [22m(using [1m-B[22m, or [1m--format=berkeley[22m).[m
+           The  default  is  the  one-line  format   similar   to   Berkeley's.[m
+           Alternatively,  you  can  choose the GNU format output (using [1m-G[22m, or[m
+[7m Manual page size(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ sie[Kze -help
+[?2004lUsage: size [option(s)] [file(s)]
+ Displays the sizes of sections inside binary files
+ If no input file(s) are specified, a.out is assumed
+ The options are:
+  -A|-B|-G  --format={sysv|berkeley|gnu}  Select output style (default is berkeley)
+  -o|-d|-x  --radix={8|10|16}         Display numbers in octal, decimal or hex
+  -t        --totals                  Display the total sizes (Berkeley only)
+  -f                                  Ignored.
+            --common                  Display total size for *COM* syms
+            --target=<bfdname>        Set the binary file format
+            @<file>                   Read options from <file>
+  -h|-H|-?  --help                    Display this information
+  -v|-V     --version                 Display the program's version
+
+size: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big pe-bigobj-x86-64 pe-i386 pdb srec symbolsrec verilog tekhex binary ihex plugin
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size 0
+[?2004lsize: '0': No such file
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size 0[K[K0
+[?2004lbash: size0: command not found
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size -common
+[?2004lsize: invalid option -- 'c'
+Usage: size [option(s)] [file(s)]
+ Displays the sizes of sections inside binary files
+ If no input file(s) are specified, a.out is assumed
+ The options are:
+  -A|-B|-G  --format={sysv|berkeley|gnu}  Select output style (default is berkeley)
+  -o|-d|-x  --radix={8|10|16}         Display numbers in octal, decimal or hex
+  -t        --totals                  Display the total sizes (Berkeley only)
+  -f                                  Ignored.
+            --common                  Display total size for *COM* syms
+            --target=<bfdname>        Set the binary file format
+            @<file>                   Read options from <file>
+  -h|-H|-?  --help                    Display this information
+  -v|-V     --version                 Display the program's version
+
+size: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big pe-bigobj-x86-64 pe-i386 pdb srec symbolsrec verilog tekhex binary ihex plugin
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size -common-common
+[?2004lsize: 'a.out': No such file
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size --common[K[K[K[K[K[K[Kcommon
+[?2004lsize: invalid option -- 'c'
+Usage: size [option(s)] [file(s)]
+ Displays the sizes of sections inside binary files
+ If no input file(s) are specified, a.out is assumed
+ The options are:
+  -A|-B|-G  --format={sysv|berkeley|gnu}  Select output style (default is berkeley)
+  -o|-d|-x  --radix={8|10|16}         Display numbers in octal, decimal or hex
+  -t        --totals                  Display the total sizes (Berkeley only)
+  -f                                  Ignored.
+            --common                  Display total size for *COM* syms
+            --target=<bfdname>        Set the binary file format
+            @<file>                   Read options from <file>
+  -h|-H|-?  --help                    Display this information
+  -v|-V     --version                 Display the program's version
+
+size: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big pe-bigobj-x86-64 pe-i386 pdb srec symbolsrec verilog tekhex binary ihex plugin
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size -common[K[K[K[K[K[Kf
+[?2004lsize: 'a.out': No such file
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size -f exam[K[K[K[K./exam-data
+[?2004lsize: Warning: './exam-data' is a directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size -f ./exam-data/
+[?2004lsize: Warning: './exam-data/' is a directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ size -f ./exam-data/[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfind .xec[K[K[K/exam-data/ type f [K \[K| size 0[K[K[K[K[K[K-sixe [K[K[Kze 0/+0c
+[?2004lbash: -size: command not found
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ type f | -size 0/+0c[K[K[K[K
+[?2004lbash: -size: command not found
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ type f | -size 0[Ko
+[?2004lbash: -size: command not found
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ type f | -size o[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfind find [K[K[K[K[K./xema[K[K[K[Kexam-data/case/evidence typef[K f
+[?2004l./exam-data/case/evidence
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+find: ‘type’: No such file or directory
+find: ‘f’: No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence type f[K[K[K[K[K[K[K/ type f
+[?2004l./exam-data/case/evidence/
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+find: ‘type’: No such file or directory
+find: ‘f’: No such file or directory
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ type f[1P[C[C[C[C[C[C[C[1@/[C[C[C[C[C[C[C[K[K[K[K[K[K
+[?2004l./exam-data/case/evidence/
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ type f[1P[C[C[C[C[C[C[C[3P type f | -size o0/+0c[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[18Psize -f ./exam-data/[K[Kcommon-common[1Pcommon0[K 0-help[2Pman size[3P-size[1Psizeman size[Kfind ./exam-data/ -size0type f -size0[K[K[K[K[K[K
+[?2004l./exam-data/intel/auth.log
+./exam-data/intel/users.csv
+./exam-data/intel/access.log
+./exam-data/intel/iocs.txt
+./exam-data/case/hello.sh
+./exam-data/case/windows.sh
+./exam-data/case/config-new.txt
+./exam-data/case/logs/firewall.log
+./exam-data/case/logs/auth.log
+./exam-data/case/logs/access.log
+./exam-data/case/nested/archive/old.log
+./exam-data/case/scripts/report.py
+./exam-data/case/scripts/scan.py
+./exam-data/case/scripts/check.sh
+./exam-data/case/configs/app.conf
+./exam-data/case/configs/server.conf
+./exam-data/case/configs/backup.conf
+./exam-data/case/backups/users.old
+./exam-data/case/backups/config.old
+./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+./exam-data/case/config-old.txt
+./exam-data/case/docs/inventory.txt
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/ -type f [6@case/evidence/[C[6P -type f[C[6@case/evidence/[Ctype f[1@-
+[?2004l./exam-data/case/evidence/suspicious.dat
+./exam-data/case/evidence/notes.txt
+./exam-data/case/evidence/empty.bin
+./exam-data/case/evidence/image.png
+./exam-data/case/evidence/passwords.txt
+./exam-data/case/evidence/archive.zip
+./exam-data/case/evidence/readme.md
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ -type f \ [K[K| file -b 
+[?2004lUsage: file [-bcCdEhikLlNnprsSvzZ0] [--apple] [--extension] [--mime-encoding]
+            [--mime-type] [-e <testname>] [-F <separator>]  [-f <namefile>]
+            [-m <magicfiles>] [-P <parameter=value>] [--exclude-quiet]
+            <file> ...
+       file -C [-m <magicfiles>]
+       file [--help]
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ -type f | file -b ./e vidence/
+[?2004lcannot open `./evidence/' (No such file or directory)
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ -type f | file -b ./evidence/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+evidence/xevidence/[Caevidence/[C[Cmevidence/[C[C[C-evidence/[C[C[C[Cdevidence/[C[C[C[C[Caevidence/[C[C[C[C[C[Ctevidence/[C[C[C[C[C[C[Caevidence//evidence/cevidence/sevidence/cevidence/aevidence/[1Pevidence/[1Pevidence/[1Pevidence/aevidence/sevidence/[Cevidence//evidence/
+[?2004ldirectory
+[?2004h[0;32m@ndij-exe [0m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ -type f | file -b ./exam-data/case/evidence/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1Pam-data/case/evidence/[1Pm-data/case/evidence/[1P-data/case/evidence/[1Pdata/case/evidence/[1Pata/case/evidence/[1Pta/case/evidence/[1Pa/case/evidence/[1P/case/evidence/[1Pcase/evidence/[1Pase/evidence/[1Pse/evidence/[1Pe/evidence/[1P/evidence/[1Pevidence/[1Pvidence/[1Pidence/[1Pdence/[1Pence/[1Pnce/[1Pce/[1Pe/[1P/[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[C[1P [1P [K[1P [1P [1P [1P [K[1P > > [C f i l e [C - b [C 
+[?2004lfind: unknown predicate `-b'
+[?2004h[0;32m@ndij-exe [1;31m➜ [1;34m~/Test1 [0;36m([1;31mmain[0;36m) [0m$ find ./exam-data/case/evidence/ -type f >> file -b  [1P[1P[1@<[1@<
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h> 
+[?2004l[?2004h
